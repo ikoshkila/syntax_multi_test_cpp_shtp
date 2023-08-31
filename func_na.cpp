@@ -6,7 +6,7 @@ std::vector<char> str_list(std::string str){
 			int a = 1;
 		}
 	}
-	std::vector<char> output;
+	std::vector<char> output
 	for(long long i = 0; i < str.size(); ++i)
 		output.push_back(str[i]);
 	return output;
